@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+
+:root{
+    --cor01: #2A8C82;
+    --cor02: #41BFB3;
+    --cor03: #9BF2EA;
+    --cor04: #275950;
+    --cor05: #260101;
+
+    --font01: 'Pacifico', 'cursive';
+    --font02: 'Patrick Hand', 'cursive';
+    --font03: 'Righteous', 'cursive';
+    --font04: 'Frank Ruhl Libre', serif;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    margin: auto;
+    width: 320px;
+    font-family: var(--font03);
+    color: var(--cor04);
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
+header > h2{
+    margin: auto;
+    width: 280px;
+    font-family: var(--font03);
+    color: var(--cor04);
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
+header > p{
+    margin: auto;
+    max-width: 320px;
+    min-width: 280px;
+    font-family: var(--font03);
+    color: var(--cor04);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.164);
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    min-width: 280px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+main > section > div > img{
+    width: 100%;
+}
+
+main > section{
+    margin: auto;
+    max-width: 750px;
+    min-height: 280px;
+    text-align: center;
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+}
+
+main > section > a > button{
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: var(--cor04);
+    font-family: var(--font02);
+    font-size: 1.5em;
+    color: white;
+    width: 300px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.274);
+}
+
+main > div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+main > section > h2{
+    width: 280px;
+    padding-left: 15px;
+    font-family: var(--font03);
+    text-align: left;
+    color: var(--cor04);
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
+main > section > p{
+    font-family: var(--font04);
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -5;
+}
+
+footer > p{
+    text-align: center;
+    font-family: var(--font02);
+    color: var(--cor04);
+}
+
+#perfil{
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 160px;
+    width:160px;
+    background: black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
+    border: solid 1px var(--cor02);
+    
+}
+
+.video{
+    position: relative;
+    padding-bottom: 55%;
+}
+
+#secao1{
+    margin: auto;
+    max-width: 750px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+}
+
+.botaop{
+    width: 185px;
+}
+
+.icone{
+    width: 68%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#but2{
+    background-image: url('imagens/icones/iconeinstabranco.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#but21{
+    background-image: url('imagens/icones/iconefacebranco.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#but212{
+    background-image: url('imagens/icones/iconewhatssbranco.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#but9{
+    font-size: 1.2em;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+
+#but2, #but21, #but212{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+}
