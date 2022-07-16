@@ -92,8 +92,9 @@ main > section > a > button{
     background-color: var(--cor04);
     font-family: var(--font02);
     font-size: 1.5em;
+    text-align: center;
     color: white;
-    width: 300px;
+    width: 250px;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 8px;
@@ -180,6 +181,31 @@ footer > p{
     width: 68%;
     text-align: center;
     margin-top: 6%;
+}
+
+#but1{
+    background-image: url('imagens/icones/perfil.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 1.1em;
+    height: 60px;
+}
+
+#but3{
+    background-image: url('imagens/icones/wiseup.png');
+    height: 60px;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#but4{
+    background-image: url('imagens/icones/espacolaser.png');
+    height: 60px;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #but2{
