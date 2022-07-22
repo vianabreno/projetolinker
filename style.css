@@ -187,9 +187,10 @@ footer > p{
 #but1{
     background-image: url('imagens/icones/perfil.png');
     background-size: 15%;
+    font-family: var(--font03);
     background-repeat: no-repeat;
     background-position: left;
-    background-position-x: 1.1em;
+    background-position-x: 1.9em;
     height: 60px;
 }
 
