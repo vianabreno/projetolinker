@@ -9,6 +9,8 @@ var but0212 = window.document.getElementById('but212')
 var but03 = window.document.getElementById('but3')
 var but04 = window.document.getElementById('but4')
 var but05 = window.document.getElementById('but5')
+var menu1 = window.document.getElementById('menu1')
+var menu2 = window.document.getElementById('menu2')
 
 but01.addEventListener('mouseenter', entrar1)
 but01.addEventListener('mouseout', sair1)
@@ -48,20 +50,30 @@ function sair212(){
 
 but03.addEventListener('mouseenter', entrar3)
 but03.addEventListener('mouseout', sair3)
+but03.addEventListener('click', clique)
 function entrar3(){
     but03.style.backgroundColor = 'var(--cor01)'
 }
 function sair3(){
     but03.style.backgroundColor = 'var(--cor04)'
 }
+function clique(){
+    menu1.style.display = 'block'
+    menu2.style.display = 'none'
+}
 
 but04.addEventListener('mouseenter', entrar4)
 but04.addEventListener('mouseout', sair4)
+but04.addEventListener('click', clique2)
 function entrar4(){
     but04.style.backgroundColor = 'var(--cor01)'
 }
 function sair4(){
     but04.style.backgroundColor = 'var(--cor04)'
+}
+function clique2(){
+    menu2.style.display = 'block'
+    menu1.style.display = 'none'
 }
 
 but05.addEventListener('mouseenter', entrar5)

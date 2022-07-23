@@ -132,6 +132,14 @@ main > section > p{
     padding-bottom: 10px;
 }
 
+main > section > div a{
+    text-decoration: none;
+    font-family: var(--font03);
+    font-size: 1.2em;
+    line-height: 2em;
+    
+}
+
 footer{
     margin: auto;
     text-align: center;
@@ -268,4 +276,22 @@ footer > p{
     overflow: hidden;
     height: 60px;
     width: 60px;
+}
+
+#menubut1, #menubut2, #menubut11, #menubut22{
+    background-color: var(--cor03);
+    border: 0;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    font-family: var(--font03);
+    color: var(--cor04);
+    box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 2px
+}
+
+#menu1, #menu2{
+    display: none;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 10px;
 }
