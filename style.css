@@ -282,9 +282,11 @@ footer > p{
     background-color: var(--cor03);
     border: 0;
     border-radius: 8px;
-    width: 150px;
-    height: 30px;
+    width: 160px;
+    height: 50px;
+    margin-top: 15px;
     font-family: var(--font03);
+    font-size: 1.05em;
     color: var(--cor04);
     box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 2px
 }

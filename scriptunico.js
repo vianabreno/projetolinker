@@ -11,6 +11,7 @@ var but04 = window.document.getElementById('but4')
 var but05 = window.document.getElementById('but5')
 var menu1 = window.document.getElementById('menu1')
 var menu2 = window.document.getElementById('menu2')
+var perfil = window.document.getElementById('perfil')
 
 but01.addEventListener('mouseenter', entrar1)
 but01.addEventListener('mouseout', sair1)
@@ -60,6 +61,7 @@ function sair3(){
 function clique(){
     menu1.style.display = 'block'
     menu2.style.display = 'none'
+    perfil.style.borderBlockColor = 'blue'
 }
 
 but04.addEventListener('mouseenter', entrar4)
@@ -74,6 +76,7 @@ function sair4(){
 function clique2(){
     menu2.style.display = 'block'
     menu1.style.display = 'none'
+    perfil.style.borderBlockColor = 'red'
 }
 
 but05.addEventListener('mouseenter', entrar5)
@@ -84,6 +87,7 @@ function entrar5(){
 function sair5(){
     but05.style.backgroundColor = 'var(--cor04)'
 }
+
 
 //
 //CODIGO PARA MUDAR DE COR O LAIOUT - DESATIVADO
